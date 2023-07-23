@@ -1,0 +1,341 @@
+@media only screen and (min-width: 451px) and (max-width: 1024px) {
+  header {
+    opacity: 1;
+  }
+  header .container .main {
+    display: none;
+  }
+  header .container .menu-icon .img {
+    display: none;
+  }
+  .banner .container {
+    flex-direction: column;
+  }
+  .banner .container .text .text-title {
+    padding: 20px 20px;
+  }
+  .banner .container .text .text-title h1 {
+    font-size: 40px;
+    line-height: 45px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: normal;
+  }
+  .banner .container .text .text-title p {
+    margin: 30px 0px;
+  }
+  .banner .container .text .text-title .click {
+    padding: 15px 20px;
+  }
+  .about .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .container .image-about {
+    width: 100%;
+  }
+  .about .container .image-about img {
+    width: 100%;
+  }
+  .about .container .image-about .bg-about {
+    display: none;
+  }
+  .about .container .about-text {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .furniture .container-none {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+  }
+  .furniture .container-none .furniture-body {
+    flex-direction: column;
+  }
+  .furniture .container-none .furniture-body .option {
+    margin-right: 0px;
+    margin-bottom: 50px;
+  }
+  .furniture .container-none .furniture-body .option img {
+    width: 100%;
+  }
+  .client .container ul {
+    flex-direction: column;
+  }
+  .client .container ul li {
+    padding: 10px 0px;
+  }
+  .all-furniture .container-none {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+  }
+  .all-furniture .container-none ul li {
+    text-align: center;
+  }
+  .all-furniture .container-none .big-block {
+    flex-direction: column;
+  }
+  .all-furniture .container-none .big-block .block {
+    margin-bottom: 50px;
+  }
+  .all-furniture .container-none .big-block .block img {
+    width: 100%;
+  }
+  .all-furniture .container-none .big-block .block-icon {
+    justify-content: space-evenly;
+  }
+  .all-furniture .container-none .big-block .block-icon .btn {
+    padding: 25px 30px;
+  }
+  .customer .container {
+    flex-direction: column;
+  }
+  .customer .container .radius {
+    margin-right: 0px;
+    padding: 0px 0px;
+  }
+  .customer .container .radius img {
+    width: 100%;
+  }
+  .customer .container .radius .bg-radius {
+    display: none;
+  }
+  .customer .container .feedback {
+    margin-top: 90px;
+    margin-left: 0px;
+  }
+  .new {
+    margin: 100px 0px;
+  }
+  footer .container {
+    flex-direction: column;
+  }
+  footer .container p {
+    max-width: none;
+  }
+  footer .container .text-title .app {
+    margin-bottom: 20px;
+    margin-right: 0;
+    max-width: none;
+  }
+}
+@media only screen and (max-width: 450px) {
+  header {
+    opacity: 1;
+  }
+  header .container .main {
+    display: none;
+  }
+  header .container .menu-icon .img {
+    display: none;
+  }
+  .banner {
+    margin-bottom: 50px;
+  }
+  .banner .container {
+    flex-direction: column;
+  }
+  .banner .container .text .text-title {
+    padding: 20px 20px;
+  }
+  .banner .container .text .text-title h1 {
+    font-size: 30px;
+    line-height: 40px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: normal;
+  }
+  .banner .container .text .text-title p {
+    margin: 15px 0px;
+    font-size: 15px;
+  }
+  .banner .container .text .text-title .click {
+    padding: 10px 15px;
+  }
+  .banner .container .text .text-title .click span {
+    font-size: 13px;
+  }
+  .client .container ul {
+    flex-direction: column;
+  }
+  .client .container ul li {
+    padding: 10px 0px;
+  }
+  .about {
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+  .about .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .container p {
+    font-size: 15px;
+  }
+  .about .container .image-about {
+    width: 100%;
+  }
+  .about .container .image-about img {
+    width: 100%;
+  }
+  .about .container .image-about .bg-about {
+    display: none;
+  }
+  .about .container .about-text {
+    margin-left: 0px;
+  }
+  .about .container .about-text h2 {
+    font-size: 25px;
+  }
+  .about .container .about-text p {
+    margin: 15px 0px;
+  }
+  .about .container .about-text .text p {
+    margin: 10px 0px;
+  }
+  .about .container .about-text .text h3 {
+    font-size: 17px;
+  }
+  .about .container .about-text .text-icon .icon img {
+    width: 110%;
+  }
+  .furniture .container-none {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+  }
+  .furniture .container-none .furniture-head p {
+    font-size: 15px;
+    margin: 15px 0;
+  }
+  .furniture .container-none .furniture-head h2 {
+    font-size: 20px;
+  }
+  .furniture .container-none .furniture-body {
+    flex-direction: column;
+  }
+  .furniture .container-none .furniture-body .option {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .furniture .container-none .furniture-body .option img {
+    width: 100%;
+  }
+  .all-furniture {
+    margin: 0px;
+    margin-top: 50px;
+  }
+  .all-furniture .container-none {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+  }
+  .all-furniture .container-none h2 {
+    font-size: 25px;
+    padding: 0px;
+  }
+  .all-furniture .container-none ul li a {
+    font-size: 14px;
+  }
+  .all-furniture .container-none .big-block {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .all-furniture .container-none .big-block .block img {
+    width: 100%;
+  }
+  .all-furniture .container-none .big-block .block-icon {
+    margin-top: 20px;
+    justify-content: space-evenly;
+  }
+  .all-furniture .container-none .big-block .block-icon .btn {
+    padding: 5px 5px;
+  }
+  .customer {
+    margin-top: 50px;
+  }
+  .customer .container {
+    flex-direction: column;
+  }
+  .customer .container .radius {
+    margin-right: 0px;
+    padding: 0px 0px;
+  }
+  .customer .container .radius img {
+    width: 100%;
+  }
+  .customer .container .radius .bg-radius {
+    display: none;
+  }
+  .customer .container .feedback {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .customer .container .feedback h2 {
+    font-size: 20px;
+    max-width: 70%;
+    line-height: 30px;
+  }
+  .customer .container .feedback p {
+    font-size: 15px;
+    margin: 20px 0px;
+  }
+  .new {
+    margin: 60px 0px;
+  }
+  .new .container .new-tt h2 {
+    font-size: 23px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  footer .container {
+    flex-direction: column;
+  }
+  footer .container .text-title h3 {
+    font-size: 20px;
+    line-height: 15px;
+  }
+  footer .container .text-title p {
+    max-width: none;
+    font-size: 15px;
+  }
+  footer .container .text-title .app {
+    margin-bottom: 20px;
+    margin-right: 0;
+    max-width: none;
+  }
+  footer .container .take h3 {
+    font-size: 20px;
+    line-height: 15px;
+  }
+  footer .container .take ul li {
+    margin-bottom: 15px;
+    line-height: 15px;
+    font-size: 15px;
+  }
+  footer .container .our-cpy {
+    margin: 20px 0px;
+  }
+  footer .container .our-cpy h3 {
+    font-size: 20px;
+    line-height: 15px;
+  }
+  footer .container .our-cpy ul li {
+    margin-bottom: 15px;
+    line-height: 15px;
+    font-size: 15px;
+  }
+  footer .container .sub h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  footer .container .sub p {
+    font-size: 16px;
+    margin: 15px 0;
+    line-height: 15px;
+  }
+}/*# sourceMappingURL=reponsive.css.map */

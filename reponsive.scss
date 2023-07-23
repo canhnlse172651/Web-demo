@@ -1,0 +1,419 @@
+
+@media only screen and (min-width: 451px ) and (max-width: 1024px) {
+    header{
+      opacity: 1;
+      .container{
+        .main{
+          display: none;
+        }
+        .menu-icon{
+          .img{
+            display: none;
+          }
+        }
+      }
+
+    }
+    .banner{
+      .container{
+        flex-direction: column;
+        .text{
+          .text-title{
+            padding: 20px 20px;
+            h1{
+              font-size: 40px;
+              line-height: 45px;
+              font-family: 'Montserrat';
+              font-weight: 500;
+              font-style: normal;
+            }
+            p{
+              margin: 30px 0px;
+            }
+            .click{
+              padding: 15px 20px;
+            }
+          }
+          
+        }
+      }
+    }
+    .about{
+      .container{
+        flex-direction: column;
+        align-items: center;
+        .image-about{
+          width: 100%;
+          img{
+            width: 100%;
+          }
+          .bg-about{
+            display: none;
+          }
+        }
+        .about-text{
+          margin-top: 20px;
+          margin-left: 0px;
+        }
+      }
+    }
+    .furniture{
+      .container-none{
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 15px;
+        .furniture-body{
+          flex-direction: column;
+          .option{
+            margin-right: 0px;
+            margin-bottom: 50px;
+           img{
+            width: 100%;
+           }
+          }
+        }
+      }
+    }
+      .client{
+       .container{
+         ul{
+           flex-direction: column;
+           li{
+             padding: 10px 0px;
+           }
+         }
+       }
+      }
+      .all-furniture{
+       .container-none{
+         max-width: 1200px;
+         margin: auto;
+         padding: 0 15px;
+         ul{
+           li{
+             text-align: center;
+           }
+         }
+         .big-block{
+           flex-direction: column;
+           .block{
+   
+             margin-bottom: 50px;
+             img{
+               width: 100%;
+             }
+           }
+           .block-icon{
+             justify-content: space-evenly;
+               .btn{
+                padding: 25px 30px;
+               }
+             }
+           }
+         }
+       }
+       .customer{
+        .container{
+          flex-direction: column;
+          .radius{
+            margin-right: 0px;
+            padding: 0px 0px;
+            img{
+              width: 100%;
+            }
+            .bg-radius{
+              display: none;
+            }
+          }
+          .feedback{
+            margin-top: 90px;
+            margin-left: 0px;
+          }
+        }
+       }
+    
+      .new{
+       margin: 100px 0px;
+      }
+      footer{
+       .container{
+         flex-direction: column;
+         p{
+           max-width: none;
+         }
+         .text-title{
+           .app{
+             margin-bottom: 20px;
+             margin-right: 0;
+             max-width: none;
+           }
+         }
+       }
+      }
+    }  
+  @media only screen  and (max-width: 450px) {
+    header{
+      opacity: 1;
+      .container{
+        .main{
+          display: none;
+        }
+        .menu-icon{
+          .img{
+            display: none;
+          }
+        }
+      }
+
+    }
+    .banner{
+      margin-bottom: 50px;
+      .container{
+        flex-direction: column;
+        .text{
+          .text-title{
+            padding: 20px 20px;
+            h1{
+              font-size: 30px;
+              line-height: 40px;
+              font-family: 'Montserrat';
+              font-weight: 500;
+              font-style: normal;
+            }
+            p{
+              margin: 15px 0px;
+              font-size: 15px;
+            }
+            .click{
+              padding: 10px 15px;
+              span{
+                font-size: 13px;
+              }
+            }
+          }
+          
+        }
+      }
+    }
+    .client{
+      .container{
+        ul{
+          flex-direction: column;
+          li{
+            padding: 10px 0px;
+          }
+        }
+      }
+     }
+    .about{
+      margin-top: 0px;
+      margin-bottom: 60px;
+      .container{
+        p{
+          font-size: 15px;
+        }
+        flex-direction: column;
+        align-items: center;
+        .image-about{
+          width: 100%;
+          img{
+            width: 100%;
+          }
+          .bg-about{
+            display: none;
+          }
+        }
+        .about-text{
+          margin-left: 0px;
+          h2{
+            font-size: 25px;
+          }
+          p{
+            margin: 15px 0px;
+          }
+          .text{
+            p{
+              margin: 10px 0px;
+            }
+            h3{
+              font-size: 17px;
+            }
+          }
+          .text-icon{
+            .icon{
+              img{
+                width: 110%;
+              }
+            }
+          }
+        }
+      }
+    }
+    .furniture{
+      .container-none{
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 15px;
+       .furniture-head{
+        p{
+          font-size: 15px;
+          margin: 15px 0;
+        }
+        h2{
+          font-size: 20px;
+        }
+       }
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 15px;
+        .furniture-body{
+          flex-direction: column;
+          .option{
+            margin-right: 0px;
+            margin-bottom: 30px;
+           img{
+            width: 100%;
+           }
+          }
+        }
+      }
+    }
+    .all-furniture{
+      margin: 0px;
+      margin-top: 50px;
+      .container-none{
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 15px;
+        h2{
+          font-size: 25px;
+          padding: 0px;
+        }
+        ul{
+          li{
+            a{
+              font-size: 14px;
+            }
+          }
+        }
+        .big-block{
+          flex-direction: column;
+          margin-top: 40px;
+          .block{
+            img{
+              width: 100%;
+            }
+          }
+          .block-icon{
+            margin-top: 20px;
+            justify-content: space-evenly;
+            .btn{
+              padding: 5px 5px;
+            }
+            }
+          }
+        }
+      }
+   .customer{
+    margin-top: 50px;
+        .container{
+          flex-direction: column;
+          .radius{
+            margin-right: 0px;
+            padding: 0px 0px;
+            img{
+              width: 100%;
+            }
+            .bg-radius{
+              display: none;
+            }
+          }
+          .feedback{
+            margin-top: 20px;
+            margin-left: 0px;
+            h2{
+              font-size: 20px;
+              max-width: 70%;
+              line-height: 30px;
+            }
+            p{
+              font-size: 15px;
+              margin: 20px 0px;
+            }
+          }
+        }
+       }
+   .new{
+        margin: 60px 0px;
+        .container{
+          .new-tt{
+            h2{
+              font-size: 23px;
+              line-height: 35px;
+              margin-bottom: 20px;
+            }
+          }
+        }
+       }
+   footer{
+        .container{
+          flex-direction: column;
+         
+          .text-title{
+            h3{
+              font-size: 20px;
+              line-height: 15px;
+            }
+            p{
+              max-width: none;
+              font-size: 15px;
+            }
+            .app{
+              margin-bottom: 20px;
+              margin-right: 0;
+              max-width: none;
+            }
+          }
+          .take{
+            h3{
+              font-size: 20px;
+              line-height: 15px;
+            }
+            ul{
+              li{
+                margin-bottom: 15px;
+                line-height: 15px;
+                font-size: 15px;
+              }
+            }
+          }
+          .our-cpy{
+            margin: 20px 0px;
+            h3{
+              font-size: 20px;
+              line-height: 15px;
+            }
+            ul{
+              li{
+                margin-bottom: 15px;
+                line-height: 15px;
+                font-size: 15px;
+              }
+            }
+          }
+          .sub{
+            h3{
+              font-size: 20px;
+              margin-bottom: 15px;
+
+            }
+            p{
+              font-size: 16px;
+              margin: 15px 0;
+              line-height: 15px;
+            }
+          }
+        }
+       }
+     }
+  
